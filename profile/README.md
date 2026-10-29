@@ -2,7 +2,7 @@
 
 **Secure Post-Quantum-Safe Hospitality Platform That Heals and Scales Itself.**
 
-Hotel8 is the hospitality vertical of the Sentin8 platform — an end-to-end hotel management system: from rate shopping and direct booking through front-desk arrival, restaurant meals charged to the room, upsell offers, loyalty points, channel distribution, to the nightly close. All running on one tenant-isolated model with one identity plane and one event stream.
+Hotel8 is the hospitality vertical of the Sentin8 platform - an end-to-end hotel management system: from rate shopping and direct booking through front-desk arrival, restaurant meals charged to the room, upsell offers, loyalty points, channel distribution, to the nightly close. All running on one tenant-isolated model with one identity plane and one event stream.
 
 ## Services
 
@@ -48,10 +48,10 @@ Hotel8 depends on these Sentin8 platform services for cross-cutting concerns:
 
 ## Key Invariants
 
-- **Idempotent creation** — a reservation, check, offer, or member record is created exactly once per request (idempotency keys on every event-triggered path)
-- **Money moves only through bill8** — charges + balance transactions; no vertical service computes or stores balances
-- **No integration tax** — reservations, folios, menus, offers, rewards, and channel availability live in one tenant-isolated model with one identity plane and one event stream
-- **One source of truth** — staff/guest apps share the same authorized domain model; no per-app copies of business rules
+- **Idempotent creation** - a reservation, check, offer, or member record is created exactly once per request (idempotency keys on every event-triggered path)
+- **Money moves only through bill8** - charges + balance transactions; no vertical service computes or stores balances
+- **No integration tax** - reservations, folios, menus, offers, rewards, and channel availability live in one tenant-isolated model with one identity plane and one event stream
+- **One source of truth** - staff/guest apps share the same authorized domain model; no per-app copies of business rules
 
 ---
 
