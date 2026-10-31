@@ -4,6 +4,17 @@
 
 Hotel8 is the hospitality vertical of the Sentin8 platform - an end-to-end hotel management system: from rate shopping and direct booking through front-desk arrival, restaurant meals charged to the room, upsell offers, loyalty points, channel distribution, to the nightly close. All running on one tenant-isolated model with one identity plane and one event stream.
 
+> **A note on our history.** If you found your way here looking for
+> **PRIME** - `authPrime`, `exchangePRIME`, and family - you're in the
+> right place. Those projects are this one: our open-source
+> work is now rebranded to **Sentin8** (this vertical is **Hotel8**) to
+> avoid confusion with other brand names and products. At the same
+> time we left our self-hosted **Apache SVN** behind and moved
+> everything to GitHub. The lineage goes back further than you might
+> expect - here's a fun LinkedIn read from 2017, when the platform was
+> still called PRIME and still lived on SVN:
+> [Advanced Hybrid Securities Exchange](https://www.linkedin.com/pulse/advanced-hybrid-securities-exchange-hamid-jahanzad/).
+
 ## Services
 
 | Service | Domain | What it does |
